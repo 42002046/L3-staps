@@ -1,21 +1,86 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<h1> SITE Jeanneau Lina td A </h1>
-	<body bgcolor="#6A8577">
-		<h2> Liste des articles </h2>
-	<h2> SOMMAIRE </h2>
-	<ul>
-		<li><a href="cyclisme.html"> Articles de Cyclisme </a></li>
-		<li><a href="equitation.html"> Articles d'Equitation </a></li>
-		<li><a href="athle.html"> Articles d'Athlétisme</a></li>
-		<li> <a href="formulaire.html"> formulaire d'inscription</a></li>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	</ul>
+<title>Site Jeanneau Lina</title>
+
+<style>
+/* Fond avec image de sportifs */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.unsplash.com/photo-1517649763962-0c623066013b") no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+/* Animation du titre */
+h1 {
+    margin-top: 50px;
+    font-size: 40px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Boutons stylés */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 20px;
+}
+
+/* Boutons animés */
+a {
+    text-decoration: none;
+    padding: 15px 25px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.3s;
+    display: inline-block;
+}
+
+/* Animation au survol */
+a:hover {
+    background: #ff9800;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ff9800;
+}
+</style>
+
 </head>
+
 <body>
+
+<h1>SITE Jeanneau Lina td A</h1>
+
+<h2>Liste des articles</h2>
+<h2>SOMMAIRE</h2>
+
+<ul>
+    <li><a href="cyclisme.html">Articles de Cyclisme</a></li>
+    <li><a href="equitation.html">Articles d'Equitation</a></li>
+    <li><a href="athle.html">Articles d'Athlétisme</a></li>
+    <li><a href="formulaire.html">Formulaire d'inscription</a></li>
+    <li> <a href="tp 4.html"> tp4 css</li>
+</ul>
 
 </body>
 </html>
